@@ -1,0 +1,14 @@
+<section>
+  <div class="cards" ng-init="limit = 3">
+    <div class="card" ng-repeat="project in projects | limitTo: limit as results">
+      <div class="card-image">
+        <img src="{{project.img}}" alt="{{project.name}}" />
+      </div>
+      <div class="card-copy">
+        <h2>{{project.name}} <a href="{{project.url}}" target="_blank"><i class="fa fa-external-link"></i></a></h2>
+        <p>{{project.desc}}</p>
+      </div>
+    </div>
+  </div>
+  <button ng-hide="results.length === projects.length" ng-click="limit = limit +3; gotoBottom()" scroll-to="footer">Show More</button>  
+</section>

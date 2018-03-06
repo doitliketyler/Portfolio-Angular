@@ -1,0 +1,92 @@
+[
+	{
+	  "name": "Nectar",
+	  "desc": "A Wordpress blog for Papyrus that showcases topics revolving around the greeting cards and stationary they offer.",
+	  "img": "img/nectar.jpg",
+	  "url": "https://www.papyrusonline.com/blog"
+	},
+	{
+	  "name": "Graduation Source",
+	  "desc": "An interactive infographic that serves as a guide for students to learn and decide on their future career path.",
+	  "img": "img/gsource.jpg",
+	  "url": "http://www.doitliketyler.com/local/dream-job/"
+	},
+	{
+	  "name": "Unicorn",
+	  "desc": "A slightly opinionated starter kit for any front-end development projects that helps developers write faster and cleaner code.",
+	  "img": "img/unicorn.jpg",
+	  "url": "https://github.com/doitliketyler/Unicorn"
+	},
+	{
+	  "name": "NVIDIA",
+	  "desc": "A simple landing page that showcases the advanced features of NVIDIA's latest 4K HDR streaming media player.",
+	  "img": "img/nvidia.png",
+	  "url": "http://doitliketyler.com/local/nvidia/"
+	},
+	{
+	  "name": "Hillel",
+	  "desc": "A landing page encouraging recent graduates to advance their careers by applying for their new fellowship program.",
+	  "img": "img/hillel.jpg",
+	  "url": "http://www.hillel.org/springboard"
+	},
+	{
+	  "name": "Colgate",
+	  "desc": "A social campaign encouraging users to save water and take a pledge to turn off the faucet when you brush your teeth.",
+	  "img": "img/colgate.jpg",
+	  "url": "http://everydropcounts.colgate.com"
+	},
+	{
+	  "name": "Grace",
+	  "desc": "An awareness campaign that offers downloadable resources with facts about the current rise of child poverty in Los Angeles.",
+	  "img": "img/grace.jpg",
+	  "url": "http://www.endchildpovertyca.org"
+	},
+	{
+	  "name": "CurioPress",
+	  "desc": "An open-minded Wordpress theme kit with a few useful tools that helps developers jump start any of their Wordpress project.",
+	  "img": "img/curiopress.jpg",
+	  "url": "https://github.com/doitliketyler/CurioPress"
+	},
+	{
+	  "name": "Vulcan",
+	  "desc": "A website showcasing company news and information about the documentaries and educational films that they have worked on.",
+	  "img": "img/vulcan.jpg",
+	  "url": "http://www.vulcanproductions.com/"
+	},
+	{
+	  "name": "Murchison-Hume",
+	  "desc": "An ecommerce store that provides safe cleaning solutions that only use cruelty free and naturally derived ingredients.",
+	  "img": "img/murchison-hume.jpg",
+	  "url": "http://www.murchison-hume.com"
+	},
+	{
+	  "name": "Art Brokerage",
+	  "desc": "A platform that helps dealers, galleries, and private collectors to safely and securely manage all of their art transactions.",
+	  "img": "img/art-brokerage.jpg",
+	  "url": "https://www.artbrokerage.com"
+	},
+	{
+	  "name": "McKesson",
+	  "desc": "A health care distributor portal that bridges the gap between hospitals, healthcare providers, pharmacies and manufacturers",
+	  "img": "img/mckesson.jpg",
+	  "url": "http://www.mckesson.com"
+	},
+	{
+	  "name": "PIMCO Indices",
+	  "desc": "A resource for investors to visit and gain some insight on the current years global investment, debt levels, and inflation.",
+	  "img": "img/pimco.jpg",
+	  "url": "http://www.pimcoindex.com/Pages/Default.aspx"
+	},
+	{
+	  "name": "PacDental",
+	  "desc": "A portal that offers talent acquisition assistance by connecting experienced dentists with inquiring dental offices.",
+	  "img": "img/pacdental.jpg",
+	  "url": "http://www.pacificdentalservices.com"
+	},
+	{
+	  "name": "SitOnIt",
+	  "desc": "An ecommerce store that provides high quality and custom built task, conference, and multipurpose chairs.",
+	  "img": "img/sitonit.jpg",
+	  "url": "http://www.sitonit.net"
+	}
+]

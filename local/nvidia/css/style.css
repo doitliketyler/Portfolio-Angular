@@ -1,0 +1,371 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+@font-face {
+  font-family: 'DINOT';
+  src: url("fonts/DINOT.eot");
+  src: url("fonts/DINOT.eot?#iefix") format("embedded-opentype"), url("fonts/DINOT.woff") format("woff"), url("fonts/DINOT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINOT-Black';
+  src: url("fonts/DINOT-Black.eot");
+  src: url("fonts/DINOT-Black.eot?#iefix") format("embedded-opentype"), url("fonts/DINOT-Black.woff") format("woff"), url("fonts/DINOT-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINOT-Bold';
+  src: url("fonts/DINOT-Bold.eot");
+  src: url("fonts/DINOT-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/DINOT-Bold.woff") format("woff"), url("fonts/DINOT-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINOT-Medium';
+  src: url("fonts/DINOT-Medium.eot");
+  src: url("fonts/DINOT-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/DINOT-Medium.woff") format("woff"), url("fonts/DINOT-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINPro-Black';
+  src: url("fonts/DINPro-Black.eot");
+  src: url("fonts/DINPro-Black.eot?#iefix") format("embedded-opentype"), url("fonts/DINPro-Black.woff") format("woff"), url("fonts/DINPro-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINPro-Bold';
+  src: url("fonts/DINPro-Bold.eot");
+  src: url("fonts/DINPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/DINPro-Bold.woff") format("woff"), url("fonts/DINPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINPro-Light';
+  src: url("fonts/DINPro-Light.eot");
+  src: url("fonts/DINPro-Light.eot?#iefix") format("embedded-opentype"), url("fonts/DINPro-Light.woff") format("woff"), url("fonts/DINPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINPro-Medium';
+  src: url("fonts/DINPro-Medium.eot");
+  src: url("fonts/DINPro-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/DINPro-Medium.woff") format("woff"), url("fonts/DINPro-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINPro-Regular';
+  src: url("fonts/DINPro-Regular.eot");
+  src: url("fonts/DINPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/DINPro-Regular.woff") format("woff"), url("fonts/DINPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'GeForce-Bold';
+  src: url("fonts/GeForce-Bold.eot");
+  src: url("fonts/GeForce-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/GeForce-Bold.woff") format("woff"), url("fonts/GeForce-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'GeForce-Light';
+  src: url("fonts/GeForce-Light.eot");
+  src: url("fonts/GeForce-Light.eot?#iefix") format("embedded-opentype"), url("fonts/GeForce-Light.woff") format("woff"), url("fonts/GeForce-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+body {
+  background-color: #fbfcfb;
+  background-size: 1400px auto; }
+
+header {
+  background-color: #000000;
+  color: #fbfcfb;
+  padding: 17px; }
+  @media screen and (min-width: 960px) {
+    header {
+      padding: 35px; } }
+  header .logo {
+    background: url("../img/logo-white.svg") no-repeat;
+    background-size: 100% auto;
+    display: block;
+    height: 20px;
+    width: 99px; }
+
+footer {
+  background-color: #000000;
+  color: #fbfcfb;
+  font-size: 12px;
+  padding: 17px;
+  text-align: center; }
+  footer img {
+    width: 100px; }
+
+img {
+  max-width: 100%; }
+
+h1 {
+  margin: 0;
+  text-indent: -9999px;
+  white-space: nowrap; }
+
+h2 {
+  color: #76b900;
+  font-family: "GeForce-Bold", Helvetica, Arial;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 12px;
+  text-transform: uppercase; }
+  h2 span {
+    color: #000000;
+    display: block;
+    font-size: 20px;
+    line-height: 30px; }
+  @media screen and (min-width: 960px) {
+    h2 {
+      font-size: 50px;
+      line-height: 46px; }
+      h2 span {
+        font-size: 34px;
+        line-height: 40px; } }
+
+h3 {
+  font-family: "DINOT-Bold", Helvetica, Arial;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 8px 0 2px;
+  text-transform: uppercase; }
+
+p {
+  font-family: "DINPro-Light", Helvetica, Arial;
+  margin: 0; }
+
+.main {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 10px; }
+  .main::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 960px) {
+    .main {
+      padding-top: 10px; } }
+  .main .hero {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .main .hero::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 960px) {
+      .main .hero {
+        padding-top: 32px; } }
+    .main .hero .image {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .main .hero .image:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 960px) {
+        .main .hero .image {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%; }
+          .main .hero .image:last-child {
+            margin-right: 0; } }
+    .main .hero .image.mobile {
+      display: block; }
+      @media screen and (min-width: 960px) {
+        .main .hero .image.mobile {
+          display: none; } }
+    .main .hero .image.desktop {
+      display: none; }
+      @media screen and (min-width: 960px) {
+        .main .hero .image.desktop {
+          display: block; } }
+    .main .hero .information {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .main .hero .information:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 960px) {
+        .main .hero .information {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%; }
+          .main .hero .information:last-child {
+            margin-right: 0; } }
+      .main .hero .information .blurb {
+        display: none;
+        line-height: 28px;
+        margin-bottom: 20px; }
+        @media screen and (min-width: 960px) {
+          .main .hero .information .blurb {
+            display: block; } }
+      .main .hero .information .specs {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%;
+        border-right: 1px solid #bfbfbf;
+        text-align: center; }
+        .main .hero .information .specs:last-child {
+          margin-right: 0; }
+        @media screen and (min-width: 960px) {
+          .main .hero .information .specs {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 31.76157%; }
+            .main .hero .information .specs:last-child {
+              margin-right: 0; } }
+        .main .hero .information .specs .brand {
+          color: #000000;
+          font-family: "GeForce-Bold", Helvetica, Arial;
+          font-size: 30px;
+          line-height: 30px;
+          margin: 0; }
+          @media screen and (min-width: 960px) {
+            .main .hero .information .specs .brand {
+              font-size: 40px; } }
+        .main .hero .information .specs .storage {
+          font-family: "DINOT", Helvetica, Arial;
+          font-size: 16px; }
+          @media screen and (min-width: 960px) {
+            .main .hero .information .specs .storage {
+              font-size: 14px; } }
+        .main .hero .information .specs .price {
+          font-family: "DINOT-Bold", Helvetica, Arial;
+          font-size: 30px;
+          margin-bottom: 5px;
+          margin-top: 10px; }
+          .main .hero .information .specs .price span {
+            font-size: 18px; }
+          .main .hero .information .specs .price sup {
+            font-size: 14px; }
+          @media screen and (min-width: 960px) {
+            .main .hero .information .specs .price {
+              font-size: 34px; }
+              .main .hero .information .specs .price span {
+                font-size: 26px; }
+              .main .hero .information .specs .price sup {
+                font-size: 18px; } }
+        .main .hero .information .specs .shipping {
+          font-family: "DINOT-Bold", Helvetica, Arial;
+          font-size: 13px; }
+      .main .hero .information .cta {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        .main .hero .information .cta:last-child {
+          margin-right: 0; }
+        @media screen and (min-width: 960px) {
+          .main .hero .information .cta {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 65.88078%; }
+            .main .hero .information .cta:last-child {
+              margin-right: 0; } }
+        .main .hero .information .cta .button {
+          color: #fbfcfb;
+          display: block;
+          font-family: "DINOT-Bold", Helvetica, Arial;
+          font-size: 18px;
+          margin-bottom: 14px;
+          padding: 12px 20px;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          width: 150px;
+          background: #4ea100;
+          background: -moz-linear-gradient(top, #4ea100 0%, #78b731 100%);
+          background: -webkit-gradient(left top, left bottom, color-stop(0%, #4ea100), color-stop(100%, #78b731));
+          background: -webkit-linear-gradient(top, #4ea100 0%, #78b731 100%);
+          background: -o-linear-gradient(top, #4ea100 0%, #78b731 100%);
+          background: -ms-linear-gradient(top, #4ea100 0%, #78b731 100%);
+          background: linear-gradient(to bottom, #4ea100 0%, #78b731 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ea100', endColorstr='#78b731', GradientType=0 ); }
+        .main .hero .information .cta .offer {
+          color: #76b900;
+          font-family: "GeForce-Bold", Helvetica, Arial;
+          font-size: 14px;
+          line-height: 18px;
+          margin-right: 70px;
+          text-transform: uppercase; }
+          @media screen and (min-width: 960px) {
+            .main .hero .information .cta .offer {
+              font-size: 20px;
+              line-height: 24px;
+              margin-right: 0; } }
+        .main .hero .information .cta .limited {
+          font-family: "DINOT", Helvetica, Arial;
+          font-size: 13px;
+          margin-right: 70px;
+          margin-top: -15px; }
+          @media screen and (min-width: 960px) {
+            .main .hero .information .cta .limited {
+              margin-right: 0; } }
+    .main .hero .image {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .main .hero .image:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 960px) {
+        .main .hero .image {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%; }
+          .main .hero .image:last-child {
+            margin-right: 0; } }
+  .main .features {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px; }
+    .main .features::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .main .features article {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-bottom: 40px;
+      margin-right: 0;
+      text-align: center; }
+      .main .features article:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 960px) {
+        .main .features article {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%; }
+          .main .features article:last-child {
+            margin-right: 0; } }
+      .main .features article p {
+        font-family: "DINOT", Helvetica, Arial;
+        font-size: 15px; }
